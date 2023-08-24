@@ -3,9 +3,19 @@
     background-color: rgb(249, 248, 209);
 }
 
+body {
+    text-align: center;
+}
+
 .img {
     height: auto;
     width: 500px;
+}
+
+.title-style {
+    text-align: center;
+    color: rgb(59, 135, 179);
+    margin: auto;
 }
 
 .recipe-title {
@@ -20,21 +30,28 @@
 
 .div-style {
     padding: 5px;
-    background-color: ;
+    background-color: #e9d5d4;
 }
 
-.div-header-style {
+.nav-header-style {
     padding: 8px;
-    margin: 10px 5px;
-    background-color: aquamarine;
-    width: 500px;
-    text-align: center;
+    margin: auto;
+    background-color: rgb(59, 135, 179);
     border-radius: 4px;
+    
 }
 
 .a-style {
     background-color: bisque;
+    color: rgb(59, 135, 179);
     border-radius: 3px;
     text-decoration: none;
-    padding: 3px;
+    padding: 5px;
+    box-shadow: 2px 2px;
+}
+.welcome {
+    background-color: rgb(59, 135, 179);
+    color: bisque;
+    border-radius: 5px;
+    box-shadow: 3px 3px rgb(44, 99, 131);
 }
