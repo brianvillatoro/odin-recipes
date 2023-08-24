@@ -1,6 +1,6 @@
 * {
     font-family: "Montserrat", sans-serif;
-    background-color: rgb(249, 248, 209);
+    background-color: rgb(228, 144, 111);
 }
 
 body {
@@ -10,6 +10,19 @@ body {
 .img {
     height: auto;
     width: 500px;
+    box-shadow: 2px 5px rgb(43, 27, 21);
+    border-radius: 10px;
+    margin:5px auto;
+}
+
+.img-background {
+    background-color: #e9d5d4;
+    box-shadow: 3px 3px #aa8b89;
+    border-radius: 3px 3px 0 0;
+    padding: 10px;
+    max-width: 500px;
+    max-height: auto;
+    margin: auto;
 }
 
 .title-style {
@@ -19,18 +32,24 @@ body {
 }
 
 .recipe-title {
-    background-color: lightcoral;
+    background-color: #e9d5d4;
     border-radius: 5px;
     height: auto;
     width: 500px;
-    border: 7px double #e8bebc;
+    border: 7px double rgb(44, 99, 131);
     text-align: center;
-    color: #e9d5d4;
+    color: rgb(44, 99, 131);
+    margin: auto;
 }
 
 .div-style {
     padding: 5px;
     background-color: #e9d5d4;
+    box-shadow: 1px 5px #aa8b89;
+    border-radius: 3px 3px;
+    margin: auto;
+    max-width: fit-content;
+    border: 3px solid rgb(44, 99, 131);
 }
 
 .nav-header-style {
@@ -38,7 +57,7 @@ body {
     margin: auto;
     background-color: rgb(59, 135, 179);
     border-radius: 4px;
-    
+    box-shadow: 2px 2px;
 }
 
 .a-style {
@@ -47,11 +66,38 @@ body {
     border-radius: 3px;
     text-decoration: none;
     padding: 5px;
-    box-shadow: 2px 2px;
+    box-shadow: 2px 2px rgb(44,99, 131);
 }
 .welcome {
     background-color: rgb(59, 135, 179);
     color: bisque;
     border-radius: 5px;
     box-shadow: 3px 3px rgb(44, 99, 131);
+    padding: 10px;
+}
+
+.h2-style {
+    margin: auto;
+    color: rgb(44, 99, 131);
+    background-color: #e9d5d4;
+    max-width: fit-content;
+}
+
+.h3-style {
+    color: #e9d5d4;
+    background-color: rgb(44, 99, 131);
+    max-width: 180px;
+    margin: auto;
+    padding: 8px;
+    border-radius: 2px;
+}
+
+ol,
+ul {
+    list-style: none;
+    color: rgb(44, 99, 131);
+}
+
+li {
+    margin: auto;
 }
