@@ -25,4 +25,16 @@
 
 .div-header-style {
     padding: 8px;
+    margin: 10px 5px;
+    background-color: aquamarine;
+    width: 500px;
+    text-align: center;
+    border-radius: 4px;
+}
+
+.a-style {
+    background-color: bisque;
+    border-radius: 3px;
+    text-decoration: none;
+    padding: 3px;
 }
