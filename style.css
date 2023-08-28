@@ -96,8 +96,16 @@ ol,
 ul {
     list-style: none;
     color: rgb(44, 99, 131);
+    background-color: #e9d5d4;
 }
 
 li {
+    background-color: #e9d5d4;
+
+}
+.list-items-style {
+    border: 3px solid rgb(44, 99, 131);
+    max-width: fit-content;
     margin: auto;
+    background-color: #e9d5d4;
 }
