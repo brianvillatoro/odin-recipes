@@ -47,9 +47,9 @@ body {
     background-color: #e9d5d4;
     box-shadow: 1px 5px #aa8b89;
     border-radius: 3px 3px;
-    margin: auto;
-    max-width: fit-content;
     border: 3px solid rgb(44, 99, 131);
+    display: flex;
+    justify-content: center;
 }
 
 .nav-header-style {
